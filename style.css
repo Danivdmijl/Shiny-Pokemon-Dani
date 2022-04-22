@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #100e1e;
+}
+
+.tekst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 11rem;
+    color: #e7e7e7f1;
+    margin-bottom: 0.8rem;
+    text-shadow: 0.3rem 0.3rem black;
+    margin-top: 1rem;
+}
+
+.container-article-kaartjes{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-kaartjes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 1.5rem;
+    max-width: 60%;
+    max-height: 100%;
+    padding: 0.7rem;
+}
+
+.kaartjes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: 30rem;
+    max-width: 30rem;
+    height: 30rem;
+    width: 30rem;
+    box-shadow: 0 1rem 1rem 0rem rgba(0,0,0,0.2);
+    border-radius: 1.5rem;
+    background: #e7e7e7f1;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+
+.FotoKaartjes{
+    max-height: 13rem ;
+    border-radius: 1.5rem;
+}
+
+.osufoto{
+    box-shadow: none;
+    border-radius: none;
+}
+
+.TitelKaartjes{
+    font-size: 2.7rem;
+}
+
+.BeschrijvingKaartjes{
+    font-size: 1.8rem;
+    padding-left: 1.8rem;
+    max-width: 48rem;
+}
+
+.kaart-home{
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.kaart-home > h2{
+    font-size: 4rem;
+}
+
+
+@media only screen and (max-width: 28.125rem) {
+    h1{
+        font-size: 8rem;
+    }
+  }
