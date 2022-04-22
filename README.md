@@ -1,3 +1,3 @@
 # Drakuze-Profile
-Website gemaakt voor mijn algemene intressen/informatie over mezelf.
+Website gemaakt voor het kunnen zien van de gevangen Shiny Pokemon die ik heb.
 "# Shiny-Pokemon-Drakuze" 
